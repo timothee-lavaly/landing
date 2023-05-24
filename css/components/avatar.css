@@ -1,0 +1,15 @@
+.avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.profile {
+	transition: transform 0.3s ease;
+	}
+
+.profile:hover {
+	transform: scale(1.1);
+	background-color: rgba(225, 160, 174, 0.2);
+	transition: smooth;
+}

@@ -1,0 +1,44 @@
+.card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.profile {
+	display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    flex-direction: column;
+    width: 240px;
+    box-shadow: 0 100px 200px rgb(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.tournée {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    align-items: flex-start;
+}
+
+.dates {
+	display: flex;
+	justify-content: space-arround;
+	align-items: center;
+}
+
+.date {
+	font-weight: bold;
+}
+
+#samedi {
+	flex-direction: column;
+}
+
+#dimanche {
+	flex-direction: column;
+} 

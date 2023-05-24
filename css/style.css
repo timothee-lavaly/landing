@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Wix+Madefor+Display&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/flexbox.css");
+@import url("components/footer.css");
+
+body{
+	font-family: 'Wix Madefor Display', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	color: #230f15;
+	}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Bruno Ace', cursive;
+	font-weight: bold;
+	color: #602870;
+	} 
+
+h2,h3,h4,h5 {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	}
+
+a {
+	text-decoration: none;
+	}
+
+
+p {
+	margin: 0 auto;
+	}

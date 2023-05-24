@@ -1,0 +1,21 @@
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+.container {width: 700px}
+}
+
+@media (max-width: 720px) {
+.container {width: 500px}
+.card {flex-direction: column;}
+.list-inline {flex-direction: column;}
+}
+
+@media (max-width: 540px) {
+.container {width: 300px}
+.card {flex-direction: column;}
+.tournée {flex-direction: column;}
+.list-inline {flex-direction: column;}
+}
